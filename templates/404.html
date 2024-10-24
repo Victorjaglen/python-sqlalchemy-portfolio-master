@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+
+<div>
+    <h1>404</h1>
+    <p>Oops! The page you are looking for doesn't exist.</p>
+    <p>But don't worry, you can <a href="/">go back to the homepage</a></p>
+    <p>If you think this is a mistake, feel free to <a href="{{ url_for('index') }}#contact">contact me</a>!</p>
+</div>
+
+{% endblock %}
