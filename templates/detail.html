@@ -4,7 +4,7 @@
 <section class="header">
     <h1>{{ project.title }}</h1>
     <p>{{ project.comp_date.strftime('%Y-%m') }}</p>
-    <a href="#" class="github-btn">
+    <a target="_blank" href="{{ project.git_url }}" class="github-btn">
         <i class="fab fa-github"></i>
         View on GitHub
     </a>
